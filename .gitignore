@@ -1,0 +1,16 @@
+.idea
+obj
+Temp
+*.csproj
+*.sln
+Logs
+Library
+Builds
+Assets/Plugins/StansAssets/CrossPlatform
+Assets/Plugins/StansAssets/Foundation
+Assets/Plugins/StansAssets/NativePlugins
+Assets/Plugins/StansAssets/CrossPlatform.meta
+Assets/Plugins/StansAssets/Foundation.meta
+Assets/Plugins/StansAssets/NativePlugins.meta
+Assets/Plugins/StansAssets/Third-PartyNotices.txt
+Assets/Plugins/StansAssets/Third-PartyNotices.txt.meta

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8fb310ba47969b4ba83b00570c92338, type: 3}
+  m_Name: UM_Settings
+  m_EditorClassIdentifier: 
+  LastVersionCode: 
+  AndroidRequestProfile: 1
+  AndroidRequestEmail: 1
+  AndroidSavedGamesEnabled: 0
+  AndroidRequestServerAuthCode: 0
+  AndroidGMSServerId: 
+  GSEditorPlayer:
+    m_id: 
+    m_alias: 
+    m_displayName: 
+    Avatar: {fileID: 0}
+  GSLeaderboards: []
+  TestRestoreProducts: []
+  EditorTestingContacts: []
+  Analytics:
+    UnityClient:
+      LimitUserTracking: 0
+      DeviceStatsEnabled: 1
+    FirebaseClient:
+      SessionTimeoutDuration: 30
+    Automation:
+      Exceptions: 1
+      Scores: 1
+      Achievements: 1
+      GameSaves: 1
+      PlayerIdTracking: 1
+      SuccessfulTransactions: 1
+      FailedTransactions: 1
+      RestoreRequests: 1
