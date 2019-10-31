@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using Assets.Scripts.Config;
 using Game.UI;
-using SA.Android.Utilities;
 using SA.CrossPlatform.InApp;
 using UnityEngine;
 using UnityEngine.UI;
@@ -43,7 +41,6 @@ namespace Game
             
             m_AddAmmoButton.onClick.AddListener(() =>
             {
-                AN_Logger.Log("AddPayment called");
                 Main.PaymentService.AddPayment(GameConfig.k_10AmmoPack);
             });
         }
@@ -61,6 +58,9 @@ namespace Game
             foreach (var product in Main.PaymentService.Products)
             {
                 if(product.Type != UM_ProductType.NonConsumable)
+                    continue;
+                
+                if(!product.IsActive)
                     continue;
 
                 AddSkinOption(product, offset);

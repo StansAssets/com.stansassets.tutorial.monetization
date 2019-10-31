@@ -15,7 +15,7 @@ namespace Game
                     ProcessCompletedTransaction(transaction);
                     break;
                 case UM_TransactionState.Deferred:
-                    //Only fir iOS
+                    //Only for iOS
                     //iOS 8 introduces Ask to Buy, which lets parents approve any 
                     //purchases initiated by children
                     //You should update your UI to reflect this deferred state, 
@@ -32,6 +32,7 @@ namespace Game
 
                     UM_Preloader.UnlockScreen();
                     UM_InAppService.Client.FinishTransaction(transaction);
+                    UM_DialogsUtility.ShowMessage("Error", "We wasn't able to process your transaction.  \n" + transaction.Error.Message);
                     break;
             }
         }
@@ -46,7 +47,6 @@ namespace Game
             //In case you want to run your custom purchase validation, you might want to get full transaction info
             //provided by a platform. Lear how to do it here:
             //https://unionassets.com/ultimate-mobile-pro/advanced-use-cases-849
-
 
             switch (transaction.ProductId)
             {
