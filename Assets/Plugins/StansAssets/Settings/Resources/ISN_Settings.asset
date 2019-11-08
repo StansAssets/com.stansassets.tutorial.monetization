@@ -28,7 +28,7 @@ MonoBehaviour:
   InAppProducts:
   - m_productIdentifier: 10.ammo.pack
     m_localizedDescription: 
-    m_localizedTitle: Ammo
+    m_localizedTitle: 10 Ammo
     m_price: 0.99
     m_priceLocale:
       m_identifier: 
@@ -58,74 +58,10 @@ MonoBehaviour:
       Texture: {fileID: 0}
       PriceTier: 0
       ProductType: 0
-  - m_productIdentifier: turret.green
-    m_localizedDescription: 
-    m_localizedTitle: Green Turret
-    m_price: 1.99
-    m_priceLocale:
-      m_identifier: 
-      m_countryCode: US
-      m_languageCode: US
-      m_currencySymbol: $
-      m_currencyCode: USD
-    m_introductoryPrice:
-      m_price: 0.99
-      m_priceLocale:
-        m_identifier: 
-        m_countryCode: US
-        m_languageCode: US
-        m_currencySymbol: $
-        m_currencyCode: USD
-      m_paymentMode: 3
-      m_numberOfUnits: 0
-      m_subscriptionPeriod:
-        m_numberOfUnits: 0
-        m_unit: 0
-      m_localizedPrice: 
-    m_subscriptionPeriod:
-      m_numberOfUnits: 0
-      m_unit: 0
-    m_localizedPrice: 
-    m_editorData:
-      Texture: {fileID: 2800000, guid: 49419b5099fea43c290ea93e13bd42ca, type: 3}
-      PriceTier: 1
-      ProductType: 1
-  - m_productIdentifier: turret.blue
-    m_localizedDescription: 
-    m_localizedTitle: Blue Turret
-    m_price: 1.99
-    m_priceLocale:
-      m_identifier: 
-      m_countryCode: US
-      m_languageCode: US
-      m_currencySymbol: $
-      m_currencyCode: USD
-    m_introductoryPrice:
-      m_price: 0.99
-      m_priceLocale:
-        m_identifier: 
-        m_countryCode: US
-        m_languageCode: US
-        m_currencySymbol: $
-        m_currencyCode: USD
-      m_paymentMode: 3
-      m_numberOfUnits: 0
-      m_subscriptionPeriod:
-        m_numberOfUnits: 0
-        m_unit: 0
-      m_localizedPrice: 
-    m_subscriptionPeriod:
-      m_numberOfUnits: 0
-      m_unit: 0
-    m_localizedPrice: 
-    m_editorData:
-      Texture: {fileID: 2800000, guid: b3705ae70aecc4b289101ec061152691, type: 3}
-      PriceTier: 1
-      ProductType: 1
   - m_productIdentifier: turret.red
     m_localizedDescription: 
     m_localizedTitle: Red Turret
-    m_price: 1.99
+    m_price: 2.99
     m_priceLocale:
       m_identifier: 
       m_countryCode: US
@@ -152,7 +88,39 @@ MonoBehaviour:
     m_localizedPrice: 
     m_editorData:
       Texture: {fileID: 2800000, guid: 9f702a1a0b1ac42e5abd5df7e5ff00ac, type: 3}
-      PriceTier: 1
+      PriceTier: 2
+      ProductType: 1
+  - m_productIdentifier: turret.blue
+    m_localizedDescription: 
+    m_localizedTitle: Turret Blue
+    m_price: 2.99
+    m_priceLocale:
+      m_identifier: 
+      m_countryCode: US
+      m_languageCode: US
+      m_currencySymbol: $
+      m_currencyCode: USD
+    m_introductoryPrice:
+      m_price: 0.99
+      m_priceLocale:
+        m_identifier: 
+        m_countryCode: US
+        m_languageCode: US
+        m_currencySymbol: $
+        m_currencyCode: USD
+      m_paymentMode: 3
+      m_numberOfUnits: 0
+      m_subscriptionPeriod:
+        m_numberOfUnits: 0
+        m_unit: 0
+      m_localizedPrice: 
+    m_subscriptionPeriod:
+      m_numberOfUnits: 0
+      m_unit: 0
+    m_localizedPrice: 
+    m_editorData:
+      Texture: {fileID: 2800000, guid: b3705ae70aecc4b289101ec061152691, type: 3}
+      PriceTier: 2
       ProductType: 1
   Achievements: []
   SavingAGame: 0

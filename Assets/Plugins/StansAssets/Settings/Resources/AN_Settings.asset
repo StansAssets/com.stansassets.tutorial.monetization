@@ -34,7 +34,7 @@ MonoBehaviour:
     any spaces.
   InAppProducts:
   - m_Type: inapp
-    m_Sku: androidnative.test.product.1
+    m_Sku: 10.ammo.pack
     m_Title: Ammo
     m_Description: 
     m_FreeTrialPeriod: 
@@ -55,28 +55,7 @@ MonoBehaviour:
     m_SettingsIcon: {fileID: 0}
     m_IsConsumable: 1
   - m_Type: inapp
-    m_Sku: turret.green
-    m_Title: Green Turret
-    m_Description: 
-    m_FreeTrialPeriod: 
-    m_IconUrl: 
-    m_IntroductoryPrice: 
-    m_IntroductoryPriceAmountMicros: 0
-    m_IntroductoryPriceCycles: 
-    m_IntroductoryPricePeriod: 
-    m_OriginalPrice: 
-    m_OriginalPriceAmountMicros: 0
-    m_Price: 1.99
-    m_PriceAmountMicros: 0
-    m_PriceCurrencyCode: 
-    m_SubscriptionPeriod: 
-    m_IsRewarded: 0
-    m_OriginalJson: 
-    m_SkuDetailsHashId: 0
-    m_SettingsIcon: {fileID: 2800000, guid: 49419b5099fea43c290ea93e13bd42ca, type: 3}
-    m_IsConsumable: 1
-  - m_Type: inapp
-    m_Sku: turret.blue
+    m_Sku: Blue Turret
     m_Title: Blue Turret
     m_Description: 
     m_FreeTrialPeriod: 
@@ -87,7 +66,7 @@ MonoBehaviour:
     m_IntroductoryPricePeriod: 
     m_OriginalPrice: 
     m_OriginalPriceAmountMicros: 0
-    m_Price: 1.99
+    m_Price: 2.00
     m_PriceAmountMicros: 0
     m_PriceCurrencyCode: 
     m_SubscriptionPeriod: 
@@ -95,7 +74,28 @@ MonoBehaviour:
     m_OriginalJson: 
     m_SkuDetailsHashId: 0
     m_SettingsIcon: {fileID: 2800000, guid: b3705ae70aecc4b289101ec061152691, type: 3}
-    m_IsConsumable: 1
+    m_IsConsumable: 0
+  - m_Type: inapp
+    m_Sku: turrent.green
+    m_Title: Green Turet
+    m_Description: 
+    m_FreeTrialPeriod: 
+    m_IconUrl: 
+    m_IntroductoryPrice: 
+    m_IntroductoryPriceAmountMicros: 0
+    m_IntroductoryPriceCycles: 
+    m_IntroductoryPricePeriod: 
+    m_OriginalPrice: 
+    m_OriginalPriceAmountMicros: 0
+    m_Price: 2.00
+    m_PriceAmountMicros: 0
+    m_PriceCurrencyCode: 
+    m_SubscriptionPeriod: 
+    m_IsRewarded: 0
+    m_OriginalJson: 
+    m_SkuDetailsHashId: 0
+    m_SettingsIcon: {fileID: 2800000, guid: 49419b5099fea43c290ea93e13bd42ca, type: 3}
+    m_IsConsumable: 0
   - m_Type: inapp
     m_Sku: turret.orange
     m_Title: Orange Turret
@@ -108,7 +108,7 @@ MonoBehaviour:
     m_IntroductoryPricePeriod: 
     m_OriginalPrice: 
     m_OriginalPriceAmountMicros: 0
-    m_Price: 1.99
+    m_Price: 2.00
     m_PriceAmountMicros: 0
     m_PriceCurrencyCode: 
     m_SubscriptionPeriod: 
@@ -116,6 +116,6 @@ MonoBehaviour:
     m_OriginalJson: 
     m_SkuDetailsHashId: 0
     m_SettingsIcon: {fileID: 2800000, guid: e5c12977b5f5842d4b17bff06c790940, type: 3}
-    m_IsConsumable: 1
+    m_IsConsumable: 0
   Licensing: 0
   GooglePlayGamesAPI: 1

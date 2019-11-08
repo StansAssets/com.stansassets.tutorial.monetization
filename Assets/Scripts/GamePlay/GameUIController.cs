@@ -19,6 +19,8 @@ namespace Game
         [Header("Skins")]
         [SerializeField] private Text m_SkinsTitle = null;
         [SerializeField] private SkinButton m_SkinButtonTemplate = null;
+        [SerializeField] private Button m_RestoreButton = null;
+        
         
         private readonly List<SkinButton> m_SkinButtons = new List<SkinButton>();
 
@@ -43,17 +45,25 @@ namespace Game
             {
                 Main.PaymentService.AddPayment(GameConfig.k_10AmmoPack);
             });
+            
+            m_RestoreButton.gameObject.SetActive(false);
+            m_RestoreButton.onClick.AddListener(() =>
+            {
+                UM_InAppService.Client.RestoreCompletedTransactions();
+            });
         }
 
         public void RefreshSkinsOptions()
         {
+            m_RestoreButton.gameObject.SetActive(Application.platform == RuntimePlatform.IPhonePlayer);
+            
             foreach (var button in m_SkinButtons)
                 Destroy(button.gameObject);
             
             m_SkinButtons.Clear();
             m_SkinsTitle.text = "Skins:";
 
-            var offset = 150;
+            var offset = 100;
             //All our Non-Consumable products are skins so let's make a Button for each of the product:
             foreach (var product in Main.PaymentService.Products)
             {
@@ -62,9 +72,9 @@ namespace Game
                 
                 if(!product.IsActive)
                     continue;
-
+                
                 AddSkinOption(product, offset);
-                offset += 120;
+                offset += 90;
             }
         }
         
@@ -74,7 +84,7 @@ namespace Game
         }
 
         private void AddSkinOption(UM_iProduct product, int offset)
-        {
+        { 
             var newSkin = Instantiate(m_SkinButtonTemplate.gameObject, Vector3.one, Quaternion.identity, m_SkinButtonTemplate.transform.parent );
 
             newSkin.transform.localScale = Vector3.one;
