@@ -1,6 +1,6 @@
 # Monetization tutorial
 
-This is the application sample that shows how to implement cross-platfrom (iOS & Android & UnityEdtiro) consumable and non-consumables in-app purchases into your application.
+This is the application sample that shows how to implement cross-platfrom (iOS & Android & UnityEditor) consumable and non-consumables in-app purchases into your application.
 
 You can unlock more turret skins and purchase more ammo to fire.
 
@@ -13,7 +13,7 @@ The tutorial is based on for [Unity In-App purchase Implementation with Ultimate
 
 ## How to use
 * Check out `master` branch.
-* Impoty Ultimate Mobile.
+* Import Ultimate Mobile.
 * Replace Project settings and products settings (see the screenshots below).
 * Build and Run InAppSample scene.
 
